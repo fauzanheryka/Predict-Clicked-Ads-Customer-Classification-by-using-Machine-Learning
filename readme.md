@@ -7,19 +7,23 @@
 
 **Table of Contents**
 - [STAGE 0: Problem Statement](#stage-0-problem-statement)
-    - [overview](#background)
+    - [Background](#background)
     - [Goal](#goal)
     - [Objective](#objective)
 - [STAGE 1: Data Preparation](#stage-1-data-preparation)
-    - [Handling Data](#stage-1-data-preparation)
-    - [Feature Engineering](#feature-engineering)
+    - [Insight](#insight)
+    - [Descriptive Analysis](#descriptive-analysis)
 - [STAGE 2: Data Exploration](#stage-2-data-exploration)
-- [STAGE 3: Data Modeling K means](#stage-3-data-modeling-with-k-means)
-    - [Preprocessing](#stage-3-data-modeling-with-k-means)
-    - [Modeling](#modeling)
-    - [Cluster Segmentation](#cluster-segmentation)
-- [STAGE 4: Customer Personality Analysis](#stage-4-customer-personality-analysis)
-- [STAGE 5: Business Recomendation](#stage-5-business-recommendation)
+    - [Univariate Analysis](#univariate-analysis)
+    - [Bivariate Analysis](#bivariate-analysis)
+    - [Multivariate Analysis](#multivariate-analysis)
+- [STAGE 3: Preprocessing](#stage-3-data-preprocessing)
+- [STAGE 4: Modeling And Evaluation](#stage-4-modeling-and-evaluation)
+    - [Confusion Matrix](#confusion-matrix)
+    - [Learning Curve](#learning-curve)
+    - [Business Insight](#business-insight)
+- [STAGE 5: Business Recomendation And Simulation](#stage-5-business-recomendations-and-simulation)
+    - [Conclusion](#conclusion)
 <br>
 
 ## Stage 0 Problem Statement
@@ -299,12 +303,12 @@ Some insights that can be gained:
 
 <p align="center">
     <kbd><img width="900" alt="Boxplot" src="https://github.com/fauzanheryka/Predict-Clicked-Ads-Customer-Classification-by-using-Machine-Learning/assets/141212116/e0ca8ac6-909c-484f-a9b7-c7654f65fd28"></kbd><br>
-    Figure 17 - Feature Importance
+    Figure 18 - Feature Importance
 </p>
 
 <p align="center">
     <kbd><img width="700" alt="Boxplot" src="https://github.com/fauzanheryka/Predict-Clicked-Ads-Customer-Classification-by-using-Machine-Learning/assets/141212116/a853731a-cb80-4360-91b3-563af3d4926c"></kbd><br>
-    Figure 17 - Shap
+    Figure 19 - Shap
 </p>
 
 ## Business insight 
@@ -315,7 +319,7 @@ Some insights that can be gained:
 
 These four features greatly affect the model that the customer will click on the ad or not. This important feature will be used as a benchmark for business recommendations.
 
-# STAGE 5. Business Recomendations and Evaluation 
+# STAGE 5. Business Recomendations and Simulation
 ## Business Recomendation 
 After doing the modeling, we will then make a business recommendation based on eda, feature importance, shap :
 
